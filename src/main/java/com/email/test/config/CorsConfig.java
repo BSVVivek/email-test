@@ -1,3 +1,4 @@
+
 package com.email.test.config;
 
 import org.springframework.context.annotation.Bean;
@@ -20,7 +21,8 @@ public class CorsConfig {
 
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "http://localhost:5174"
+                                "http://localhost:5174",
+                                "https://lakshmi-digitals-frontend-pcyr.vercel.app"
                         )
 
                         .allowedMethods(
